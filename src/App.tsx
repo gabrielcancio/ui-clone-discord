@@ -1,8 +1,14 @@
 import React from 'react';
+import GlobalStyle from './styles/global';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <h1>Hello Discord Clone</h1>
+    <>
+      <Layout />
+
+      <GlobalStyle />
+    </>
   );
 }
 
